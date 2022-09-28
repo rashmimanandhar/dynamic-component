@@ -52,7 +52,7 @@ export class AppComponent {
 
     this.childHost2.detach(this.childHost2.indexOf(this.childComponentRef.hostView));
 
-    this.containers.last.viewContainerRef.insert(this.childComponentRef.hostView);
+    this.containers.first.viewContainerRef.insert(this.childComponentRef.hostView);
   }
 
 
